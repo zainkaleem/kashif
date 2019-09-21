@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AI-Xprt Task</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- custom style sheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- font awesome 4.4.7 CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/css/bootstrap-slider.min.css"> </head>
+
+<body>
+    <div class="wrapper">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar" class="active">
+            <div class="sidebar-header">
+                <h3>Complete logo</h3> <strong><img src="img/logo.png" alt="logo" style="width: 50px;"></strong> </div>
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="#"> <span style="font-size: 22px;" class="fa fa-tachometer"></span> </a>
+                </li>
+                <li>
+                    <a href="#"> <span style="font-size: 22px;" class="fa fa-line-chart"></span></a>
+                </li>
+                <li>
+                    <a href="#"> <span style="font-size: 22px;" class="fa fa-bar-chart"></span></a>
+                </li>
+                <li>
+                    <a href="#"> <span style="font-size: 22px;" class="fa fa-user"></span></a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Page Content Holder -->
+        <div id="content">
+            <nav class="navbar navbar-default nav-menus">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn"> <i class="glyphicon glyphicon-align-justify"></i></button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#"><span class="fa fa-question"></span>Help</a></li>
+                            <li><a href="#"><span class="fa fa-cog"></span>Setting</a></li>
+                            <li><a href="#"><span class="fa fa-sign-out"></span>Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="row">
+                <div class="col-sm-6 align-left">
+                    <div class="year-box">
+                        <p><span class="left-arrow"><i class="fa fa-arrow-left" aria-hidden="true"></i></span><strong>Q2 2016</strong><span class="right-arrow"><i class="fa fa-arrow-right" aria-hidden="true"></i></span></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 align-right year-box">
+                    <div class="btn-group" role="group">
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-default">Month</button>
+                        </div>
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-default" style="background: #55b4da; color: #fff;">Quarter</button>
+                        </div>
+                    </div>
+                    <div class="filter-btn">
+                        <button type="button" class="btn btn-default" style="background: #55b4da; color: #fff;"><span style="padding-right: 10px;"><i class="fa fa-sliders" aria-hidden="true"></i></span>Quarter</button>
+                    </div>
+                </div>
+            </div>
+            <!-- graphs starts here -->
+            <div class='content-area'>
+                <div class='row'>
+                    <div class='column'>
+                        <div class='content-block'>
+                            <table class="table table-striped">
+                                <caption>SUMMARY REPORT</caption>
+                                <thead style="background: #f9f9f9;">
+                                    <tr>
+                                        <th></th>
+                                        <th>Total Possible Wins</th>
+                                        <th>Total Possible Amount</th>
+                                        <th>Performiture Forcasted Wins</th>
+                                        <th>Performiture Forcasted Amount</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <label class="custom-chk">Closed
+                                                <input type="checkbox" checked="checked"> <span class="checkmark"></span> </label>
+                                        </td>
+                                        <td>7</td>
+                                        <td>$3,432,500</td>
+                                        <td>7.0</td>
+                                        <td>$3,432,500
+                                            <br>( 100.0%)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label class="custom-chk">Commit
+                                                <input type="checkbox" checked="checked"> <span class="checkmark"></span> </label>
+                                        </td>
+                                        <td>7</td>
+                                        <td>$3,432,500</td>
+                                        <td>7.0</td>
+                                        <td>$3,432,500
+                                            <br> ( 68.0%)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label class="custom-chk">Best Case
+                                                <input type="checkbox" checked="checked"> <span class="checkmark"></span> </label>
+                                        </td>
+                                        <td>7</td>
+                                        <td>$3,432,500</td>
+                                        <td>7.0</td>
+                                        <td>$3,432,500
+                                            <br>( 44.0%) </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label class="custom-chk">Pipeline
+                                                <input type="checkbox" checked="checked"> <span class="checkmark"></span> </label>
+                                        </td>
+                                        <td>7</td>
+                                        <td>$3,432,500</td>
+                                        <td>7.0</td>
+                                        <td>$3,432,500
+                                            <br>( 18.0%)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Total</b></td>
+                                        <td><b>72</b></td>
+                                        <td><b>$41,827,431</b></td>
+                                        <td><b>28.4</b></td>
+                                        <td><b>$16,827,521</b>
+                                            <br> <b>(44.0%)</b></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class='column'>
+                        <div class='content-block'>
+                            <h4>OPPURTUNITIES</h4>
+                            <div class="range-sl">
+                                <input id="range" type="text" /> </div>
+                            <div id="container" style="min-width: 310px; height: 426px; max-width: 800px;width: 532px;"> </div>
+                            <div class="range-sl">
+                                <input id="vertical" type="text" data-slider-min="0" data-slider-max="100" data-slider-step="10" data-slider-value="25" /> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='column'>
+                        <div class='content-block'>
+                            <h4>SALESPERSON PERFORMITURE FORECASTED AMOUNT</h4>
+                            <div id="col-chart" style="min-width: 310px; max-width: 800px; height: 400px; margin: 0 auto"></div>
+                        </div>
+                    </div>
+                    <div class='column'>
+                        <div class='content-block'>
+                            <h4>SALES FUNNEL</h4>
+                            <div id="bar-chart" style="min-width: 310px; max-width: 800px; height: 400px; margin: 0 auto"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='column'>
+                        <div class='content-block'>
+                            <table class="table table-striped">
+                                <caption>INDIVIDUAL OPPURTUNITIES</caption>
+                                <thead style="background: #f9f9f9;">
+                                    <tr>
+                                        <th>Oppurtunity</th>
+                                        <th>Performiture Score</th>
+                                        <th>Amount</th>
+                                        <th>Forecasted Amount</th>
+                                        <th>Last 30 Days Email</th>
+                                        <th>Attendees</th>
+                                        <th>Weekly Momentum</th>
+                                        <th>Close Date</th>
+                                        <th>Stage</th>
+                                        <th>Days in Stage</th>
+                                        <th>Wins</th>
+                                        <th>Sales Person</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Neque Consulting</td>
+                                        <td><span class="label label-success">93.9%</span></td>
+                                        <td>$7,000</td>
+                                        <td>$6,570</td>
+                                        <td><span style="color: #db7373">20 (0.0%)</span></td>
+                                        <td>2</td>
+                                        <td>90%</td>
+                                        <td>2/19/16</td>
+                                        <td>Proposal/ Price Quote</td>
+                                        <td>98</td>
+                                        <td>2</td>
+                                        <td>Samuel Holand</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Neque Consulting</td>
+                                        <td><span class="label label-success">93.9%</span></td>
+                                        <td>$7,000</td>
+                                        <td>$6,570</td>
+                                        <td><span style="color: #db7373">20 (0.0%)</span></td>
+                                        <td>2</td>
+                                        <td>90%</td>
+                                        <td>2/19/16</td>
+                                        <td>Proposal/ Price Quote</td>
+                                        <td>98</td>
+                                        <td>2</td>
+                                        <td>Samuel Holand</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Neque Consulting</td>
+                                        <td><span class="label label-success">93.9%</span></td>
+                                        <td>$7,000</td>
+                                        <td>$6,570</td>
+                                        <td><span style="color: #db7373">20 (0.0%)</span></td>
+                                        <td>2</td>
+                                        <td>90%</td>
+                                        <td>2/19/16</td>
+                                        <td>Proposal/ Price Quote</td>
+                                        <td>98</td>
+                                        <td>2</td>
+                                        <td>Samuel Holand</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Neque Consulting</td>
+                                        <td><span class="label label-warning">93.9%</span></td>
+                                        <td>$7,000</td>
+                                        <td>$6,570</td>
+                                        <td><span style="color: #db7373">20 (0.0%)</span></td>
+                                        <td>2</td>
+                                        <td>90%</td>
+                                        <td>2/19/16</td>
+                                        <td>Proposal/ Price Quote</td>
+                                        <td>98</td>
+                                        <td>2</td>
+                                        <td>Samuel Holand</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Neque Consulting</td>
+                                        <td><span class="label label-warning">93.9%</span></td>
+                                        <td>$7,000</td>
+                                        <td>$6,570</td>
+                                        <td><span style="color: #db7373">20 (0.0%)</span></td>
+                                        <td>2</td>
+                                        <td>90%</td>
+                                        <td>2/19/16</td>
+                                        <td>Proposal/ Price Quote</td>
+                                        <td>98</td>
+                                        <td>2</td>
+                                        <td>Samuel Holand</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Neque Consulting</td>
+                                        <td><span class="label label-warning">93.9%</span></td>
+                                        <td>$7,000</td>
+                                        <td>$6,570</td>
+                                        <td><span style="color: #db7373">20 (0.0%)</span></td>
+                                        <td>2</td>
+                                        <td>90%</td>
+                                        <td>2/19/16</td>
+                                        <td>Proposal/ Price Quote</td>
+                                        <td>98</td>
+                                        <td>2</td>
+                                        <td>Samuel Holand</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Neque Consulting</td>
+                                        <td><span class="label label-warning">93.9%</span></td>
+                                        <td>$7,000</td>
+                                        <td>$6,570</td>
+                                        <td><span style="color: #db7373">20 (0.0%)</span></td>
+                                        <td>2</td>
+                                        <td>90%</td>
+                                        <td>2/19/16</td>
+                                        <td>Proposal/ Price Quote</td>
+                                        <td>98</td>
+                                        <td>2</td>
+                                        <td>Samuel Holand</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Neque Consulting</td>
+                                        <td><span class="label label-danger">93.9%</span></td>
+                                        <td>$7,000</td>
+                                        <td>$6,570</td>
+                                        <td><span style="color: #db7373">20 (0.0%)</span></td>
+                                        <td>2</td>
+                                        <td>90%</td>
+                                        <td>2/19/16</td>
+                                        <td>Proposal/ Price Quote</td>
+                                        <td>98</td>
+                                        <td>2</td>
+                                        <td>Samuel Holand</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Neque Consulting</td>
+                                        <td><span class="label label-danger">93.9%</span></td>
+                                        <td>$7,000</td>
+                                        <td>$6,570</td>
+                                        <td><span style="color: #db7373">20 (0.0%)</span></td>
+                                        <td>2</td>
+                                        <td>90%</td>
+                                        <td>2/19/16</td>
+                                        <td>Proposal/ Price Quote</td>
+                                        <td>98</td>
+                                        <td>2</td>
+                                        <td>Samuel Holand</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Neque Consulting</td>
+                                        <td><span class="label label-danger">93.9%</span></td>
+                                        <td>$7,000</td>
+                                        <td>$6,570</td>
+                                        <td><span style="color: #db7373">20 (0.0%)</span></td>
+                                        <td>2</td>
+                                        <td>90%</td>
+                                        <td>2/19/16</td>
+                                        <td>Proposal/ Price Quote</td>
+                                        <td>98</td>
+                                        <td>2</td>
+                                        <td>Samuel Holand</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Neque Consulting</td>
+                                        <td><span class="label label-danger">93.9%</span></td>
+                                        <td>$7,000</td>
+                                        <td>$6,570</td>
+                                        <td><span style="color: #db7373">20 (0.0%)</span></td>
+                                        <td>2</td>
+                                        <td>90%</td>
+                                        <td>2/19/16</td>
+                                        <td>Proposal/ Price Quote</td>
+                                        <td>98</td>
+                                        <td>2</td>
+                                        <td>Samuel Holand</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Neque Consulting</td>
+                                        <td><span class="label label-danger">93.9%</span></td>
+                                        <td>$7,000</td>
+                                        <td>$6,570</td>
+                                        <td><span style="color: #db7373">20 (0.0%)</span></td>
+                                        <td>2</td>
+                                        <td>90%</td>
+                                        <td>2/19/16</td>
+                                        <td>Proposal/ Price Quote</td>
+                                        <td>98</td>
+                                        <td>2</td>
+                                        <td>Samuel Holand</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Neque Consulting</td>
+                                        <td><span class="label label-warning">93.9%</span></td>
+                                        <td>$7,000</td>
+                                        <td>$6,570</td>
+                                        <td><span style="color: #db7373">20 (0.0%)</span></td>
+                                        <td>2</td>
+                                        <td>90%</td>
+                                        <td>2/19/16</td>
+                                        <td>Proposal/ Price Quote</td>
+                                        <td>98</td>
+                                        <td>2</td>
+                                        <td>Samuel Holand</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Neque Consulting</td>
+                                        <td><span class="label label-danger">93.9%</span></td>
+                                        <td>$7,000</td>
+                                        <td>$6,570</td>
+                                        <td><span style="color: #db7373">20 (0.0%)</span></td>
+                                        <td>2</td>
+                                        <td>90%</td>
+                                        <td>2/19/16</td>
+                                        <td>Proposal/ Price Quote</td>
+                                        <td>98</td>
+                                        <td>2</td>
+                                        <td>Samuel Holand</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Neque Consulting</td>
+                                        <td><span class="label label-danger">93.9%</span></td>
+                                        <td>$7,000</td>
+                                        <td>$6,570</td>
+                                        <td><span style="color: #db7373">20 (0.0%)</span></td>
+                                        <td>2</td>
+                                        <td>90%</td>
+                                        <td>2/19/16</td>
+                                        <td>Proposal/ Price Quote</td>
+                                        <td>98</td>
+                                        <td>2</td>
+                                        <td>Samuel Holand</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Neque Consulting</td>
+                                        <td><span class="label label-success">93.9%</span></td>
+                                        <td>$7,000</td>
+                                        <td>$6,570</td>
+                                        <td><span style="color: #db7373">20 (0.0%)</span></td>
+                                        <td>2</td>
+                                        <td>90%</td>
+                                        <td>2/19/16</td>
+                                        <td>Proposal/ Price Quote</td>
+                                        <td>98</td>
+                                        <td>2</td>
+                                        <td>Samuel Holand</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/bootstrap-slider.min.js"></script>
+    <!-- highcharts cdn -->
+    <script src="https://code.highcharts.com/highcharts.src.js"></script>
+    <script src="js/graph.js"></script>
+    <!-- custom JS file -->
+    <script src="js/common.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+    <script>
+        // Vertical Slider
+        var slider = new Slider("#vertical", {
+            orientation: 'vertical'
+            , tooltip: 'always'
+        });
+        // Range Slider
+        var slider = new Slider("#range", {
+            min: 0
+            , max: 100
+            , value: [50, 80]
+            , range: true
+            , tooltip: 'always'
+        });
+    </script>
+</body>
+
+</html>
